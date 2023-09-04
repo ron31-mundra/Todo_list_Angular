@@ -1,27 +1,38 @@
-# TodoList
+# Angular Todo List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This is a simple Todo List application built using Angular. It allows you to manage your tasks and keep track of things you need to do.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Add tasks to your list with a title and description.
+- Mark tasks as completed or uncompleted.
+- Edit task details.
+- Delete tasks you no longer need.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Follow these steps to get a copy of the project up and running on your local machine.
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js and npm installed on your machine.
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
 
-## Running end-to-end tests
+   ```bash
+   https://github.com/ron31-mundra/todo_list.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Running the App
+1. Run the development server:
 
-## Further help
+    ```bash
+      ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+### Acknowledgments
+
+Thanks to the Angular team for creating a fantastic framework.
+Inspiration for this project comes from the need for a simple and effective task management tool.
