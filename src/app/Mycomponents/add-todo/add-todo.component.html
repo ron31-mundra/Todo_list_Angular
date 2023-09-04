@@ -1,0 +1,25 @@
+<p>Add a todo</p>
+<form (ngsubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="sno">Todo Serial Number</label>
+        <input type="number" [(ngModel)]="sno" class="form-control" name='sno' id="sno" min=1 aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+        <label for="title">Todo Title</label>
+        <input type="text" [(ngModel)]="title" class="form-control" name='title' id="title" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+        <label for="desc">Todo Description</label>
+        <input type="text" [(ngModel)]="desc" class="form-control" name="desc" id="desc">
+    </div>
+
+    <div class="form-group">
+        <label for="active">Active</label>
+        <select [(ngModel)]="active" class="form-control" name="active" id="active">
+            <option>true</option>
+            <option>false</option>
+        </select>
+    </div>
+    <br>
+    <button type="submit" (click)="onSubmit()" class="btn btn-sm btn-primary">Add Todo</button>
+</form>
